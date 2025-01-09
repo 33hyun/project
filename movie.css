@@ -1,0 +1,22 @@
+header {
+    width: 100%;
+    background-color: black;
+    color:blanchedalmond;
+    padding: 20px;
+    text-align: center;
+}
+input {
+	position: relative;
+	font-size:0.9cm;
+	background-color: aqua;
+	padding: 3px;
+	border-radius:20vb
+}
+button {
+    position: relative;
+    font-size: 1cm;
+    background-color:yellowgreen
+}
+movies{
+
+}
