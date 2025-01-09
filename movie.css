@@ -2,21 +2,43 @@ header {
     width: 100%;
     background-color: black;
     color:blanchedalmond;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 input {
-	position: relative;
-	font-size:0.9cm;
-	background-color: aqua;
-	padding: 3px;
+	width: 300px;
+	font-size: 16px;;
+	background-color: #d6c7a8;
+	padding: 10px;
 	border-radius:20vb
 }
-button {
-    position: relative;
-    font-size: 1cm;
-    background-color:yellowgreen
-}
-movies{
 
+#searchbtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color:rgba(198, 241, 241, 0.848);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#lookbookmark {
+    margin-top: 20px;
+    font-size: 15px;
+    width: 85px; 
+     
+}
+main {
+    width: 91%;
+}
+
+.movies {
+    display: grid;
+    grid-template-columns: repeat(5, 21%);
+    gap: 20px;
+}
+.movie {
+    background-color: black;
+    color:white;
+    padding: 30px;
 }
